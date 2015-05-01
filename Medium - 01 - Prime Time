@@ -12,3 +12,9 @@ function PrimeTime(num) {
   return true;     
   
 }
+ //or Best practice
+ for (var i=2;i<num;i++) {
+    if (num%i === 0) {
+    return false;
+    }
+  }
